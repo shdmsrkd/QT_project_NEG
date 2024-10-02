@@ -41,6 +41,8 @@ else()
     else()
         add_executable(QT_project
             ${PROJECT_SOURCES}
+            peeremploymentscene.h peeremploymentscene.cpp peeremploymentscene.ui
+            casino.h casino.cpp casino.ui
         )
     endif()
 endif()
